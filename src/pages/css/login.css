@@ -45,12 +45,13 @@
     width: 590px;
     height: 72px;
     color: white;
-    background: #Ff4141;
+    background: #cd63fa;
     margin-top: 30px;
     border: none;
     font-size: 24px;
     font-weight: 500;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .login {
@@ -58,10 +59,11 @@
     color: #5c5c5c;
     font-size: 18px;
     font-weight: 500;
+
 }
 
 .login span {
-    color: #Ff4141;
+    color: #cd63fa;
     font-weight: 700;
 
 }

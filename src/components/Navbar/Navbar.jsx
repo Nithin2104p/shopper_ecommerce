@@ -33,6 +33,7 @@ const Navbar = () => {
                 <Link style={{ textDecoration: 'none' }} to='/mens'><li onClick={() => { setMenu("mens") }}>men{menu === "mens" ? <hr /> : <></>}</li></Link> {/* Fixing setMenu function call */}
                 <Link style={{ textDecoration: 'none' }} to='/womens'><li onClick={() => { setMenu("womens") }}>women{menu === "womens" ? <hr /> : <></>}</li></Link> {/* Fixing setMenu function call */}
                 <Link style={{ textDecoration: 'none' }} to='/kids'><li onClick={() => { setMenu("kids") }}>kids{menu === "kids" ? <hr /> : <></>}</li> </Link>{/* Fixing setMenu function call */}
+                <h5><a style={{ textDecoration: "none", color: "#cd63fa" }} href="http://nithinp.netlify.app">PORTFOLIO</a></h5>
             </ul>
 
             <div className="nav-login-cart">

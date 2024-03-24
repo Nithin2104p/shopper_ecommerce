@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const NewCollections = () => {
     const [new_collections, setnew_collection] = useState([])
     useEffect(() => {
-        fetch('http://localhost:4000/newcollections')
+        fetch('https://shopper-8qol.onrender.com/newcollections')
             .then((response) => response.json())
             .then((data) => setnew_collection(data));
     }, [])

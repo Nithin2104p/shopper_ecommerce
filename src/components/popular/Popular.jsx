@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const Popular = () => {
     const [popularProducts, setPopularProduct] = useState([])
     useEffect(() => {
-        fetch('http://localhost:4000/popularinwomen')
+        fetch('https://shopper-8qol.onrender.com/popularinwomen')
             .then((response) => response.json())
             .then((data) => setPopularProduct(data));
     }, [])

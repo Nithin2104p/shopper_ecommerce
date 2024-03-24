@@ -137,7 +137,7 @@
 
 @media(max-width:500px) {
     .newsletter {
-        width: 224px;
+        width: 40%;
     }
 
     .newsletter h1 {

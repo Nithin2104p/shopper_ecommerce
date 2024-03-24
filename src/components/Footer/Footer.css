@@ -136,6 +136,7 @@
 @media(max-width:500px) {
     .footer {
         display: grid;
+        width: 100%;
     }
 
     .shopper {

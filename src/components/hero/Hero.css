@@ -192,5 +192,7 @@
     .hero-right img {
         height: 270px;
         padding-right: 5px;
+        position: relative;
+        right: 60px;
     }
 }
